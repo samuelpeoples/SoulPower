@@ -275,10 +275,10 @@ nav ul li a2 {
 .boxedText {
 	background: rgba(0, 0, 0, 0.38);
 	border: 2px solid #000000;
-	line-height: 180%;
+	line-height: 125%;
 	width: fit-content;
 	display: inline-block;
-	margin: 8px 0px;
+
 	color: var(--hero-gold);
 	font-weight: normal;
 }
@@ -468,24 +468,33 @@ place-items: center;
 footer {
 	display: flex;
 	width: 100%;
+	min-height: var(--footerHeight);
 	margin-top: auto;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.144);
 }
 #footerpic {
 	z-index: 1;
-	background: url(images/footervector.svg) no-repeat right;
-	height: var(--footerHeight);
-	width: 540px;
+	background: url(images/footervector.svg) no-repeat ;
+	min-height: var(--footerHeight);
+	width: 375px;
 	position: absolute;
-	background-size: cover;
-	right: 0;
+	right: 0px;
+
 }
 #footertext {
 	z-index: 2;
-	line-height: var(--footerHeight);
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: auto;
+	padding-left: 48px;
 	margin-right: 25px;
+	min-width: 279px;
+}
+#footerInfo{
+	color: white;
+	padding: 0px 24px;
+
+	
+
 }
