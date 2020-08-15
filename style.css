@@ -355,6 +355,55 @@ nav ul li a2 {
 	min-width: 425px;
 	margin: 0px 24px;
 }
+.partnersContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.partnersItem{
+	text-align: center;
+	flex: .1 1 120px;
+
+	margin: 12px 12px
+}
+.partnerPic{
+	height: 140px;
+	width: 140px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 15px;
+
+	-webkit-box-shadow:inset 0px 0px 0px 4px black;
+    -moz-box-shadow:inset 0px 0px 0px 4px black;
+    box-shadow:inset 0px 0px 0px 4px black;
+}
+#partnerPicStrahd{
+	background: url("images/strahd.png") no-repeat;
+	background-size: 150%;
+	background-position:35% 28%;	
+}
+#partnerPicXanathar{
+	background: url("images/xanathar.jpg") no-repeat;
+	background-size: 130%;
+	background-position:50% 40%;	
+}
+#partnerPicSzass{
+	background: url("images/szass.jpg") no-repeat;
+	background-size: 150%;
+	background-position:60% 13%;	
+}
+#partnerPicAcerak{
+	background: url("images/acerak.jpg") no-repeat;
+	background-size: 160%;
+	background-position:80% 30%;	
+}
+#partnerText h3{
+	margin: 0px 0px;
+
+}
+#partnerText h4,h5, p{
+	margin: 12px 0px;
+}
 #panelWhite{
 	background-color: white;
 }
@@ -420,9 +469,9 @@ nav ul li a2 {
 
 	border-radius: 100px;
 	
-    -webkit-box-shadow:inset 0px 0px 0px 5px black;
-    -moz-box-shadow:inset 0px 0px 0px 5px black;
-    box-shadow:inset 0px 0px 0px 5px black;
+	-webkit-box-shadow:inset 0px 0px 0px 4px black;
+    -moz-box-shadow:inset 0px 0px 0px 4px black;
+    box-shadow:inset 0px 0px 0px 4px black;
 	background-repeat: no-repeat;
 
 }
